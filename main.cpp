@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     t->load("/Users/moto2yang/cpp/qt/HelloChina/lang_en.qm");
     a.installTranslator(t);
 
+
     MainWindow w;
     w.show();
 
